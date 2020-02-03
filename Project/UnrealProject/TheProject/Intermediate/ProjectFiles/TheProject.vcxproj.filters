@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{841BE47B-2910-4DD6-A1E7-28C60F7A93CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{69858754-40D4-46AD-B0C0-7F170C3B3AB0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{B7D825C1-2F76-4C87-B218-4D8FD282AB53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{39146C08-33C9-4D49-B3A2-A16A73B3B590}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{1F26D922-BF74-463E-9155-E2265E66F7FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{13AC924C-AFFA-4F33-A286-9B5D6A34FBB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{C99529B6-14BC-45E3-A55D-0C747E6A8FEE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{BD7991CB-522F-4949-B884-9A8298BEC121}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{55C2A59A-C2AF-476E-A672-1B6B8BDB0330}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{A5D93D65-F6E6-4E08-9E29-260A78022329}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\TheProject">
+      <UniqueIdentifier>{6FDADEDF-C504-4080-ACB8-6281AC5E2489}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheProject\TheProject.Build.cs">
+      <Filter>Source\TheProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheProject\TheProject.cpp">
+      <Filter>Source\TheProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheProject\TheProject.h">
+      <Filter>Source\TheProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheProject\TheProjectGameModeBase.cpp">
+      <Filter>Source\TheProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheProject\TheProjectGameModeBase.h">
+      <Filter>Source\TheProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
