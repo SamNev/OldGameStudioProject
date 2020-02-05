@@ -1,0 +1,3 @@
+H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\Definitions.TheProject.h
+H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Source\TheProject\MyActor.h
+H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Inc\TheProject\MyActor.generated.h

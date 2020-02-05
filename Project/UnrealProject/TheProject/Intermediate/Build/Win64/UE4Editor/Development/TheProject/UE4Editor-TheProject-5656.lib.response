@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TheProject-5656.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\TheProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\MyActor.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\TheProject.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\TheProjectGameModeBase.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\MyActor.gen.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\TheProject.init.gen.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\TheProjectGameModeBase.gen.cpp.obj"
+"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\Default.rc2.res"
+/OUT:"H:\Unreal Projects\GSP\Project\UnrealProject\TheProject\Intermediate\Build\Win64\UE4Editor\Development\TheProject\UE4Editor-TheProject-5656.lib"
+/INCLUDE:IMPLEMENT_MODULE_TheProject
