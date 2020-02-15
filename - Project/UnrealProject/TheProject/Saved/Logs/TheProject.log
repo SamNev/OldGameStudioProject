@@ -479,3 +479,29 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.15-17.38.42:220][  0]LogUObjectArray: 43469 objects as part of root set at end of initial load.
 [2020.02.15-17.38.42:220][  0]LogUObjectAllocator: 7553416 out of 0 bytes used by permanent object pool.
 [2020.02.15-17.38.42:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.15-17.43.58:864][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.15-17.43.59:265][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.15-17.44.13:585][  0]SourceControl: Source control is disabled
+[2020.02.15-17.44.14:131][  0]SourceControl: Source control is disabled
+[2020.02.15-17.44.16:874][  0]SourceControl: Source control is disabled
+[2020.02.15-17.44.16:934][  0]SourceControl: Source control is disabled
+[2020.02.15-17.44.35:144][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.15-17.44.40:768][  0]LogOcInput: OculusInput pre-init called
+[2020.02.15-17.44.41:327][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.15-17.44.41:327][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.15-17.44.56:234][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 9.46s
+[2020.02.15-17.44.57:318][  0]LogEngine: Initializing Engine...
+[2020.02.15-17.44.57:920][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.15-17.44.59:312][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.410 s
+[2020.02.15-17.45.05:015][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.15-17.45.48:003][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.15-17.46.00:285][  0]LogInit: No audio devices found!
+[2020.02.15-17.46.00:936][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.15-17.46.05:338][  0]LogDerivedDataCache: Saved boot cache 3.96s 74MB C:/Users/44793/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.15-17.46.06:375][  0]LogInit: Texture streaming: Enabled
+[2020.02.15-17.46.25:321][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.15-17.46.25:449][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.15-17.46.25:825][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.15-17.46.36:756][  0]LogInit: Transaction tracking system initialized
+[2020.02.15-17.46.50:397][  0]BlueprintLog: New page: Editor Load
+[2020.02.15-17.47.05:037][  0]LocalizationService: Localization service is disabled
