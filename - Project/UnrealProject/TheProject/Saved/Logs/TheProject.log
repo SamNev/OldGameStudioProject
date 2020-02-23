@@ -4851,3 +4851,933 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.23-19.38.09:383][551]LogSlate: Window 'Save Content' being destroyed
 [2020.02.23-19.38.09:544][551]LogSavePackage: Moving 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/Level_UIAF3440DE4385E9D1270AB786B7F7E055.tmp' to 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/UI/LevelSelect/Level_UI.uasset'
 [2020.02.23-19.38.09:703][551]LogSavePackage: Moving 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/LevelSelect58358F68480FCFE0D0A788A510E41FE4.tmp' to 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/UI/LevelSelect/LevelSelect.uasset'
+[2020.02.23-19.49.28:896][379]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP.Player_ABP
+[2020.02.23-19.49.28:906][379]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/OneMeshCharacters/DarkKnightSK': Can't find file.
+[2020.02.23-19.49.28:907][379]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/OneMeshCharacters/DarkKnightSK': Can't find file.
+[2020.02.23-19.49.28:907][379]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ModularRPGHeroesPolyart/Meshes/OneMeshCharacters/DarkKnightSK.DarkKnightSK'
+[2020.02.23-19.49.28:991][379]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2020.02.23-19.49.29:023][379]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2020.02.23-19.49.29:260][379]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.23-19.49.30:160][379]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.900 s
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: 
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Blueprint.cpp] [Line: 873]
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: Type mismatch: Expected Player_ABP_C, Found AnimPreviewInstance
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: Stack: 
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa7f5b711f UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa7e11ad5c UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6747fa47 UE4Editor-AnimationBlueprintEditor.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6746b8a5 UE4Editor-AnimationBlueprintEditor.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6dc4db30 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa7d08e016 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6dbb75de UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb9675a UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb53f69 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb9e94f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb51b9a UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb4e410 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cba8870 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffa6cb9ecc1 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffaa48a47fa UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffaa492968e UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffaa49144a9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffaa4909432 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffac1e54daf UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffac1e426df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffac1e57340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffac1e3edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffae7c25b6d USER32.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffae7c25562 USER32.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffac1e588e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ff613ed6980 UE4Editor.exe!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ff613eea91c UE4Editor.exe!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ff613eea9fa UE4Editor.exe!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ff613efb92c UE4Editor.exe!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ff613efe60e UE4Editor.exe!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffae6f47bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: [Callstack] 0x00007ffae8e4ced1 ntdll.dll!UnknownFunction []
+[2020.02.23-19.49.30:160][379]LogOutputDevice: Error: 
+[2020.02.23-19.49.30:168][379]LogStats:                SubmitErrorReport -  0.000 s
+[2020.02.23-19.49.32:736][379]LogStats:                    SendNewReport -  2.568 s
+[2020.02.23-19.49.32:736][379]LogStats:             FDebug::EnsureFailed -  3.476 s
+[2020.02.23-19.49.43:308][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:310][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:313][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:314][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:316][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:317][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:318][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:319][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:319][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:320][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:321][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:321][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:324][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:325][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:325][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:326][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:327][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:327][416]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim.Idle_SwordShieldAnim Referenced by SwordShield_IdleToRun
+[2020.02.23-19.49.43:327][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:327][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:328][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:328][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:328][416]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim.Walk_SwordShieldAnim Referenced by SwordShield_IdleToRun
+[2020.02.23-19.49.43:329][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Walk_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:330][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:330][416]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim.Run_SwordShieldAnim Referenced by SwordShield_IdleToRun
+[2020.02.23-19.49.43:331][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Run_SwordShieldAnim': Can't find file.
+[2020.02.23-19.49.43:331][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:331][416]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SwordShield_IdleToRun
+[2020.02.23-19.49.43:332][416]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.49.43:332][416]LoadErrors: Error: The BlendSpace  SwordShield_IdleToRun  has sample with no animation. Recommend to remove sample point or set new animation.
+[2020.02.23-19.49.48:628][  0]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.SwordShield_IdleToRun
+[2020.02.23-19.49.50:487][  0]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.49.50:548][  0]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.02.23-19.49.53:839][345]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.SwordShield_IdleToRun
+[2020.02.23-19.49.54:143][345]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.23-19.49.54:146][345]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.49.54:158][345]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.49.54:487][345]LogContentBrowser: Verbose: The majority of assets in the view are of type: BlendSpace1D
+[2020.02.23-19.50.02:083][151]LogSlate: Window 'SwordShield_IdleToRun' being destroyed
+[2020.02.23-19.50.02:086][151]LogSlate: Window 'SwordShield_IdleToRun' being destroyed
+[2020.02.23-19.50.02:113][151]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.50.02:119][151]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.50.02:268][151]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.50.02:278][151]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.50.02:392][151]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.50.35:190][238]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.02.23-19.50.35:190][238]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Untitled1' took 0.103
+[2020.02.23-19.50.35:193][238]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP] ([1] browsable assets)...
+[2020.02.23-19.50.35:202][238]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP.Player_ABP]
+[2020.02.23-19.50.35:202][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP]
+[2020.02.23-19.50.35:699][238]LogSavePackage: Moving 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/Player_ABP_Auto6DBBB505C4E00BEEF7BEFD4A3E7911CB7.tmp' to 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/Autosaves/Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP_Auto6.uasset'
+[2020.02.23-19.50.35:734][238]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun] ([1] browsable assets)...
+[2020.02.23-19.50.35:738][238]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun.SwordShield_IdleToRun]
+[2020.02.23-19.50.35:738][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun]
+[2020.02.23-19.50.35:936][238]LogSavePackage: Moving 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/SwordShield_IdleToRun_Auto6AF2292E04453A6C3E0D5BA937810E150.tmp' to 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Saved/Autosaves/Game/MigratingContent/IdleToRunBlendSpaces/SwordShield_IdleToRun_Auto6.uasset'
+[2020.02.23-19.50.35:976][238]LogFileHelpers: Auto-saving content packages took 0.785
+[2020.02.23-19.51.23:246][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:247][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:250][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:251][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:253][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:254][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:256][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:257][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:260][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:261][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:263][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:264][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:266][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:267][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:270][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:271][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:271][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:272][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:273][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:273][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:276][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:277][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:277][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:278][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:279][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:279][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:280][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:281][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:281][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:282][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:284][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:285][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:287][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:288][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:290][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:291][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:293][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:294][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:297][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:297][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:298][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:299][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:299][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:300][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:301][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:301][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by NewAnimBlueprint_C
+[2020.02.23-19.51.23:302][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:304][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:305][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:306][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:307][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:307][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:308][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:309][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:309][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:310][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:311][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:311][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:312][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:313][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:313][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:314][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:314][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:315][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:316][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:316][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:317][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:318][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:318][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:319][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:320][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:320][173]LogLinker: Warning: Failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:321][173]LogLinker: Warning: Failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:321][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:322][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:323][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:323][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:324][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:325][173]LogLinker: Warning: Failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:325][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:326][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:327][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:327][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:328][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:329][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:329][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:330][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:331][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:331][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:332][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:332][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:333][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:333][173]LogLinker: Warning: Failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:334][173]LogLinker: Warning: Failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:334][173]LogLinker: Warning: Failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:335][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:335][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim.Combo01_SingleTwohandSword_RMAnim Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:336][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:336][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:336][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/Scythe_IdleToRun.Scythe_IdleToRun Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:337][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:337][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:338][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:338][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:339][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:340][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:340][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:341][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:341][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:342][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:342][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:343][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:344][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:344][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:345][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:345][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:345][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:346][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:347][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:347][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim.Idle_SwordShieldAnim Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:347][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:348][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:348][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/Daggers_IdleToRun.Daggers_IdleToRun Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:348][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:349][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:349][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim.Combo01_SwordShield_RMAnim Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:350][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:350][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:350][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/SwordShield_IdleToRun.SwordShield_IdleToRun Referenced by Default__NewAnimBlueprint_C
+[2020.02.23-19.51.23:351][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:351][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:352][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:353][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:353][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by NewAnimBlueprint
+[2020.02.23-19.51.23:353][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.51.23:354][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:354][173]LoadErrors: Failed to load /Game/E_Attacks.E_Attacks Referenced by NewAnimBlueprint
+[2020.02.23-19.51.23:355][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:356][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:356][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP.ModularCharacterBP_C Referenced by K2Node_DynamicCast_0
+[2020.02.23-19.51.23:356][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:357][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:357][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:358][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:358][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP.ModularCharacterBP_C Referenced by K2Node_VariableGet_3
+[2020.02.23-19.51.23:359][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:359][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:360][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:361][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:361][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP.ModularCharacterBP_C Referenced by K2Node_VariableGet_4
+[2020.02.23-19.51.23:361][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:362][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:362][173]LoadErrors: Failed to load /Game/E_Attacks.E_Attacks Referenced by K2Node_VariableGet_4
+[2020.02.23-19.51.23:362][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:363][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:364][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/CharacterBP/ModularCharacterBP': Can't find file.
+[2020.02.23-19.51.23:364][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:365][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:365][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:366][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:367][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:367][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/SwordShield_IdleToRun.SwordShield_IdleToRun Referenced by AnimGraphNode_BlendSpacePlayer_0
+[2020.02.23-19.51.23:368][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:369][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:370][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/SwordShield_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:371][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:371][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim.Combo01_SwordShield_RMAnim Referenced by AnimGraphNode_SequencePlayer_19
+[2020.02.23-19.51.23:371][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Combo01_SwordShield_RMAnim': Can't find file.
+[2020.02.23-19.51.23:373][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:373][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/Daggers_IdleToRun.Daggers_IdleToRun Referenced by AnimGraphNode_BlendSpacePlayer_0
+[2020.02.23-19.51.23:374][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Daggers_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:375][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:375][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim.Idle_SwordShieldAnim Referenced by AnimGraphNode_SequencePlayer_24
+[2020.02.23-19.51.23:375][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/SwordAndShieldStance/Idle_SwordShieldAnim': Can't find file.
+[2020.02.23-19.51.23:376][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:376][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim Referenced by AnimGraphNode_SequencePlayer_19
+[2020.02.23-19.51.23:377][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:378][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:378][173]LoadErrors: Failed to load /Game/E_Attacks.E_Attacks Referenced by K2Node_VariableGet_0
+[2020.02.23-19.51.23:379][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:380][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:380][173]LoadErrors: Failed to load /Game/E_Attacks.E_Attacks Referenced by K2Node_EnumEquality_0
+[2020.02.23-19.51.23:380][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:381][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:382][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:383][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:383][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:384][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:384][173]LoadErrors: Failed to load /Game/E_Attacks.E_Attacks Referenced by K2Node_EnumInequality_0
+[2020.02.23-19.51.23:385][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:385][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:386][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:387][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:387][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/Scythe_IdleToRun.Scythe_IdleToRun Referenced by AnimGraphNode_BlendSpacePlayer_0
+[2020.02.23-19.51.23:387][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:389][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:389][173]LoadErrors: Failed to load /Game/IdleToRunBlendSpaces/Scythe_IdleToRun.Scythe_IdleToRun Referenced by AnimGraphNode_BlendSpacePlayer_1
+[2020.02.23-19.51.23:389][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:390][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:390][173]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim.Combo01_SingleTwohandSword_RMAnim Referenced by AnimGraphNode_SequencePlayer_19
+[2020.02.23-19.51.23:391][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:392][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:393][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:393][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:394][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:394][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:395][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:396][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:396][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:397][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:397][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:398][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:398][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:399][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:400][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:401][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:402][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:403][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:403][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:405][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:406][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:406][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:407][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:408][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:408][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:409][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:410][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:411][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:411][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:412][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:413][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:414][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:415][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:416][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:416][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/IdleToRunBlendSpaces/Scythe_IdleToRun': Can't find file.
+[2020.02.23-19.51.23:417][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:418][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Animations/TwoHandSwordStance/Combo01_SingleTwohandSword_RMAnim': Can't find file.
+[2020.02.23-19.51.23:420][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:420][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:421][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:422][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:422][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:423][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:424][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:425][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:425][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:426][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:427][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:427][173]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.uasset' failed to load '/Game/E_Attacks': Can't find file.
+[2020.02.23-19.51.23:440][173]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Current Attack" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Current Attack
+[2020.02.23-19.51.23:440][173]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Attacking" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Attacking
+[2020.02.23-19.51.23:441][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.23:441][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] In use pin  As Modular Character BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.02.23-19.51.23:441][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.23:441][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] NewAnimBlueprint  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2020.02.23-19.51.23:441][173]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Current Attack" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Current Attack
+[2020.02.23-19.51.23:441][173]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Attacking" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Attacking
+[2020.02.23-19.51.23:442][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.23:442][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] In use pin  As Modular Character BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.02.23-19.51.23:442][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.23:443][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] The property associated with  Current Attack  could not be found in '/Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint_C'
+[2020.02.23-19.51.23:443][173]LogBlueprint: Error: [Compiler NewAnimBlueprint] The property associated with  Attacking  could not be found in '/Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint_C'
+[2020.02.23-19.51.23:459][173]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint
+[2020.02.23-19.51.24:698][173]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.51.24:763][173]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.02.23-19.51.26:785][401]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Current Attack" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Current Attack
+[2020.02.23-19.51.26:785][401]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Attacking" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Attacking
+[2020.02.23-19.51.26:785][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.26:785][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] In use pin  As Modular Character BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.02.23-19.51.26:786][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.26:788][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:791][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:792][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:798][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:799][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:799][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:801][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:802][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:802][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:804][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:805][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:806][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:808][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:809][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Blendspace Player '(None)'  references an unknown blend space
+[2020.02.23-19.51.26:810][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Play (None)  references an unknown sequence
+[2020.02.23-19.51.26:816][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:816][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:816][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_19 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:817][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:817][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_24 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:817][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_19 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:817][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_1 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_19 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_1 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_19 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_BlendSpacePlayer_1 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:818][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_19 while searching for node links - likely due to the node having outstanding errors.
+[2020.02.23-19.51.26:820][401]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Current Attack" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Current Attack
+[2020.02.23-19.51.26:820][401]LogBlueprint: Warning: [Compiler NewAnimBlueprint] Could not find a variable named "Attacking" in 'NewAnimBlueprint'.
+Make sure 'NewAnimBlueprint' has been compiled for  Get Attacking
+[2020.02.23-19.51.26:820][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.26:820][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] In use pin  As Modular Character BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:821][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  A  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:822][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The type of  B  is undetermined.  Connect something to  NotEqual (Enum)  to imply a specific type.
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The property associated with  Current Attack  could not be found in '/Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint_C'
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The property associated with  Attacking  could not be found in '/Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint_C'
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:823][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:824][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2020.02.23-19.51.26:824][401]LogBlueprint: Error: [Compiler NewAnimBlueprint] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2020.02.23-19.51.26:835][401]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.23-19.51.26:839][401]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.26:848][401]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.29:664][719]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint
+[2020.02.23-19.51.38:676][575]LogSlate: Window 'NewAnimBlueprint' being destroyed
+[2020.02.23-19.51.38:716][575]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.38:720][575]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.38:873][575]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.39:475][645]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/Player_ABP.Player_ABP
+[2020.02.23-19.51.40:504][693]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/MigratingContent/ModularRPGHeroesPolyart/NewAnimBlueprint.NewAnimBlueprint
+[2020.02.23-19.51.45:912][154]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.45:920][154]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.46:057][154]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.51.49:756][538]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.02.23-19.51.53:288][538]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.23-19.51.53:371][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.02.23-19.51.53:403][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.02.23-19.51.53:428][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.02.23-19.52.00:155][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:156][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:156][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:157][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:158][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:158][143]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Combo01_DoubleSword_RMAnim
+[2020.02.23-19.52.00:159][143]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.00:172][143]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim
+[2020.02.23-19.52.05:130][143]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.52.05:202][143]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.02.23-19.52.07:079][298]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim
+[2020.02.23-19.52.07:079][298]LogAnimationCompression: Recompressing (AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.02.23-19.52.07:127][298]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Combo01_DoubleSword_RMAnim.Combo01_DoubleSword_RMAnim
+[2020.02.23-19.52.07:327][298]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.23-19.52.07:329][298]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.07:339][298]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.07:459][298]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.02.23-19.52.10:364][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:365][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:365][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:366][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:367][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:367][542]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Idle_DoubleSwordAnim
+[2020.02.23-19.52.10:368][542]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.10:380][542]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.Idle_DoubleSwordAnim
+[2020.02.23-19.52.11:319][542]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.52.11:372][542]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.02.23-19.52.14:507][825]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.Idle_DoubleSwordAnim
+[2020.02.23-19.52.14:507][825]LogAnimationCompression: Recompressing (AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.Idle_DoubleSwordAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.02.23-19.52.14:556][825]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Idle_DoubleSwordAnim.Idle_DoubleSwordAnim
+[2020.02.23-19.52.14:616][825]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.23-19.52.14:619][825]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.14:631][825]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.14:748][825]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.19:965][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:967][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:968][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:970][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:972][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:973][244]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by RunBack_DoubleSwordAnim
+[2020.02.23-19.52.19:974][244]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.19:993][244]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/RunBack_DoubleSwordAnim.RunBack_DoubleSwordAnim
+[2020.02.23-19.52.21:723][244]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.52.22:502][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:503][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:503][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:504][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:505][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:505][301]LoadErrors: Failed to load /Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Run_DoubleSwordAnim
+[2020.02.23-19.52.22:506][301]LogLinker: Warning: While loading 'H:/GitHub/GameStudioProject/- Project/UnrealProject/TheProject/Content/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.uasset' failed to load '/Game/ModularRPGHeroesPolyart/Meshes/UE4_Mannequin_Skeleton': Can't find file.
+[2020.02.23-19.52.22:518][301]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.Run_DoubleSwordAnim
+[2020.02.23-19.52.23:178][301]LogSlate: Window 'Message' being destroyed
+[2020.02.23-19.52.23:234][301]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.02.23-19.52.25:481][513]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.Run_DoubleSwordAnim
+[2020.02.23-19.52.25:481][513]LogAnimationCompression: Recompressing (AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.Run_DoubleSwordAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.02.23-19.52.25:523][513]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/MigratingContent/ModularRPGHeroesPolyart/Animations/DoubleSwordStance/Run_DoubleSwordAnim.Run_DoubleSwordAnim
+[2020.02.23-19.52.25:578][513]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.23-19.52.25:581][513]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.25:587][513]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.25:702][513]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.36:342][451]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.23-19.52.39:323][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.23-19.52.47:865][611]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.47:898][611]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.48:041][611]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.49:913][797]BlueprintLog: New page: Compile Player_ABP
+[2020.02.23-19.52.49:955][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.02.23-19.52.51:258][928]LogSlate: Window 'Player_ABP' being destroyed
+[2020.02.23-19.52.51:263][928]LogSlate: Window 'Player_ABP' being destroyed
+[2020.02.23-19.52.51:290][928]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.51:293][928]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.52.51:419][928]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.08:634][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.02.23-19.54.13:161][187]LogSlate: Window 'Save Content' being destroyed
+[2020.02.23-19.54.14:423][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.02.23-19.54.15:580][315]LogSlate: Window 'Save Content' being destroyed
+[2020.02.23-19.54.15:678][315]LogSlate: Window 'TheProject - Unreal Editor' being destroyed
+[2020.02.23-19.54.15:789][316]Cmd: QUIT_EDITOR
+[2020.02.23-19.54.15:831][316]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.23-19.54.15:842][316]LogExit: Preparing to exit.
+[2020.02.23-19.54.16:854][316]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:856][316]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:858][316]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:860][316]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:861][316]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:864][316]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:889][316]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.02.23-19.54.16:900][316]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.02.23-19.54.16:906][316]LogExit: Editor shut down
+[2020.02.23-19.54.16:907][316]LogExit: Transaction tracking system shut down
+[2020.02.23-19.54.17:862][316]LogExit: Object subsystem successfully closed.
+[2020.02.23-19.54.17:886][316]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module AnimationEditor (714)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module PinnedCommandList (712)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module SkeletonEditor (710)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (708)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module Voice (706)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module TextureEditor (704)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module SequencerWidgets (702)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (700)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module BlueprintGraph (698)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (696)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module SceneOutliner (694)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module AddContentDialog (692)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module WidgetCarousel (691)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module EditorWidgets (688)
+[2020.02.23-19.54.17:920][316]LogModuleManager: Shutting down and abandoning module CollectionManager (686)
+[2020.02.23-19.54.17:924][316]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (684)
+[2020.02.23-19.54.17:924][316]LogModuleManager: Shutting down and abandoning module StatsViewer (682)
+[2020.02.23-19.54.17:924][316]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (680)
+[2020.02.23-19.54.17:924][316]LogModuleManager: Shutting down and abandoning module FoliageEdit (678)
+[2020.02.23-19.54.17:924][316]LogModuleManager: Shutting down and abandoning module LandscapeEditor (676)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module MeshPaintMode (674)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (672)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module ActorPickerMode (670)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module GeometryMode (668)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module TextureAlignMode (666)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module BspMode (664)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (662)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (660)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module AutomationWorker (658)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module OculusMR (656)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
+[2020.02.23-19.54.17:926][316]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (612)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (610)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (608)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (606)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module CharacterAI (604)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module SmartSnapping (602)
+[2020.02.23-19.54.17:927][316]LogModuleManager: Shutting down and abandoning module SessionServices (600)
+[2020.02.23-19.54.17:941][316]LogModuleManager: Shutting down and abandoning module MeshPaint (598)
+[2020.02.23-19.54.17:941][316]LogModuleManager: Shutting down and abandoning module ViewportSnapping (596)
+[2020.02.23-19.54.17:941][316]LogModuleManager: Shutting down and abandoning module ViewportInteraction (594)
+[2020.02.23-19.54.17:941][316]LogModuleManager: Shutting down and abandoning module ClothPainter (592)
+[2020.02.23-19.54.17:942][316]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (591)
+[2020.02.23-19.54.17:943][316]LogModuleManager: Shutting down and abandoning module LogVisualizer (588)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module IntroTutorials (586)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (585)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (582)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (580)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (578)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (576)
+[2020.02.23-19.54.17:944][316]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (575)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (572)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (570)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (568)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (566)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (564)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module InputBindingEditor (562)
+[2020.02.23-19.54.19:846][316]LogModuleManager: Shutting down and abandoning module MergeActors (560)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (558)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module LocalizationService (557)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module HardwareTargeting (554)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (552)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module UndoHistory (550)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module XmlParser (548)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module Blutility (546)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (544)
+[2020.02.23-19.54.19:847][316]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (543)
+[2020.02.23-19.54.19:848][316]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (540)
+[2020.02.23-19.54.19:848][316]LogModuleManager: Shutting down and abandoning module SettingsEditor (538)
+[2020.02.23-19.54.19:848][316]LogModuleManager: Shutting down and abandoning module ProjectLauncher (536)
+[2020.02.23-19.54.19:848][316]LogModuleManager: Shutting down and abandoning module SessionFrontend (534)
+[2020.02.23-19.54.19:848][316]LogModuleManager: Shutting down and abandoning module ProfilerClient (532)
+[2020.02.23-19.54.19:849][316]LogModuleManager: Shutting down and abandoning module DeviceManager (530)
+[2020.02.23-19.54.19:849][316]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (529)
+[2020.02.23-19.54.19:914][316]LogModuleManager: Shutting down and abandoning module AutomationController (526)
+[2020.02.23-19.54.19:914][316]LogModuleManager: Shutting down and abandoning module AutomationWindow (524)
+[2020.02.23-19.54.19:915][316]LogModuleManager: Shutting down and abandoning module Layers (522)
+[2020.02.23-19.54.19:916][316]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (520)
+[2020.02.23-19.54.19:916][316]LogModuleManager: Shutting down and abandoning module DetailCustomizations (518)
+[2020.02.23-19.54.19:916][316]LogModuleManager: Shutting down and abandoning module PackagesDialog (516)
+[2020.02.23-19.54.19:917][316]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (514)
+[2020.02.23-19.54.19:917][316]LogModuleManager: Shutting down and abandoning module Persona (512)
+[2020.02.23-19.54.19:917][316]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (511)
+[2020.02.23-19.54.19:917][316]LogModuleManager: Shutting down and abandoning module AnimGraph (509)
+[2020.02.23-19.54.19:917][316]LogModuleManager: Shutting down and abandoning module Kismet (506)
+[2020.02.23-19.54.19:921][316]LogModuleManager: Shutting down and abandoning module KismetWidgets (505)
+[2020.02.23-19.54.19:921][316]LogModuleManager: Shutting down and abandoning module GraphEditor (502)
+[2020.02.23-19.54.19:921][316]LogModuleManager: Shutting down and abandoning module StructViewer (500)
+[2020.02.23-19.54.19:921][316]LogModuleManager: Shutting down and abandoning module ClassViewer (498)
+[2020.02.23-19.54.19:922][316]LogModuleManager: Shutting down and abandoning module Toolbox (496)
+[2020.02.23-19.54.19:922][316]LogModuleManager: Shutting down and abandoning module DesktopPlatform (495)
+[2020.02.23-19.54.19:922][316]LogModuleManager: Shutting down and abandoning module ModuleUI (492)
+[2020.02.23-19.54.19:923][316]LogModuleManager: Shutting down and abandoning module MovieSceneTools (490)
+[2020.02.23-19.54.19:923][316]LogModuleManager: Shutting down and abandoning module OutputLog (488)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module GammaUI (486)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module Documentation (484)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module LiveCoding (482)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module LevelSequence (480)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (478)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module MovieScene (476)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (474)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module LauncherPlatform (472)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module AnalyticsET (470)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module PortalServices (468)
+[2020.02.23-19.54.19:925][316]LogModuleManager: Shutting down and abandoning module PortalRpc (466)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module MessagingRpc (464)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module AIModule (462)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module GameplayDebugger (461)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module AITestSuite (459)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module NavigationSystem (457)
+[2020.02.23-19.54.19:926][316]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (454)
+[2020.02.23-19.54.19:928][316]LogModuleManager: Shutting down and abandoning module ProfilerService (452)
+[2020.02.23-19.54.20:013][316]LogModuleManager: Shutting down and abandoning module TaskGraph (450)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module ScreenshotTools (448)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module SteamVRController (446)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (444)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (442)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module OculusEditor (440)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module OculusInput (438)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (436)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module EditableMesh (434)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (432)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module CableComponent (430)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module AudioCapture (428)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
+[2020.02.23-19.54.20:014][316]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (404)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module HoudiniNiagaraEditor (402)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module HoudiniNiagara (400)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module HTML5Networking (398)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (396)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (394)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module CodeView (392)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module BackChannel (390)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (388)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module AutomationUtils (386)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module AlembicImporter (384)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module AlembicLibrary (383)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module GeometryCache (382)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (381)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module VariantManagerContent (376)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (374)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (372)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module PluginBrowser (370)
+[2020.02.23-19.54.20:015][316]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (368)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (366)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module CurveEditorTools (364)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module CurveEditor (363)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (360)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module CryptoKeys (358)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (356)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (354)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module UObjectPlugin (352)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (350)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (348)
+[2020.02.23-19.54.20:016][316]LogModuleManager: Shutting down and abandoning module GitSourceControl (346)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module SourceControl (345)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (342)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (340)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (338)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (336)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (334)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (332)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (330)
+[2020.02.23-19.54.20:017][316]LogModuleManager: Shutting down and abandoning module Paper2DEditor (328)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module TheProject (326)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (314)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module ApexDestruction (312)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module ActorSequence (310)
+[2020.02.23-19.54.20:018][316]LogModuleManager: Shutting down and abandoning module UdpMessaging (308)
+[2020.02.23-19.54.20:119][316]LogModuleManager: Shutting down and abandoning module TcpMessaging (306)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (304)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (302)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (300)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (298)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapController (296)
+[2020.02.23-19.54.20:220][316]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module MagicLeapAR (294)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module AugmentedReality (293)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module NiagaraEditor (290)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (288)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module Niagara (286)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module NiagaraCore (284)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (282)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (280)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module FacialAnimation (278)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module DataValidation (276)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (274)
+[2020.02.23-19.54.20:220][316]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2020.02.23-19.54.20:221][316]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2020.02.23-19.54.20:221][316]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (270)
+[2020.02.23-19.54.20:221][316]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2020.02.23-19.54.20:221][316]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2020.02.23-19.54.20:223][316]LogModuleManager: Shutting down and abandoning module ContentBrowser (263)
+[2020.02.23-19.54.20:223][316]LogModuleManager: Shutting down and abandoning module TreeMap (261)
+[2020.02.23-19.54.20:223][316]LogModuleManager: Shutting down and abandoning module AnimationSharing (258)
+[2020.02.23-19.54.20:224][316]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
+[2020.02.23-19.54.20:224][316]LogModuleManager: Shutting down and abandoning module Paper2D (254)
+[2020.02.23-19.54.20:224][316]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (252)
+[2020.02.23-19.54.20:225][316]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (250)
+[2020.02.23-19.54.20:225][316]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (248)
+[2020.02.23-19.54.20:225][316]LogModuleManager: Shutting down and abandoning module PacketHandler (246)
+[2020.02.23-19.54.20:225][316]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (244)
+[2020.02.23-19.54.20:225][316]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (242)
+[2020.02.23-19.54.20:226][316]LogModuleManager: Shutting down and abandoning module MediaAssets (240)
+[2020.02.23-19.54.20:226][316]LogModuleManager: Shutting down and abandoning module Overlay (238)
+[2020.02.23-19.54.20:226][316]LogModuleManager: Shutting down and abandoning module OverlayEditor (237)
+[2020.02.23-19.54.20:226][316]LogModuleManager: Shutting down and abandoning module VREditor (234)
+[2020.02.23-19.54.20:226][316]LogModuleManager: Shutting down and abandoning module StringTableEditor (232)
+[2020.02.23-19.54.20:228][316]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (230)
+[2020.02.23-19.54.20:228][316]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (228)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module FunctionalTesting (226)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (224)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module UMG (220)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module UMGEditor (219)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module Sequencer (218)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module MessageLog (215)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module SlateReflector (210)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module Slate (208)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (206)
+[2020.02.23-19.54.20:229][316]LogModuleManager: Shutting down and abandoning module EditorStyle (204)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module UnrealEd (202)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module MRMesh (200)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module Networking (192)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module Core (190)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module KismetCompiler (188)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module MeshUtilities (186)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (185)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (184)
+[2020.02.23-19.54.20:230][316]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (183)
+[2020.02.23-19.54.20:231][316]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (181)
+[2020.02.23-19.54.20:232][316]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (179)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module MaterialBaking (175)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (170)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module DerivedDataCache (168)
+[2020.02.23-19.54.20:233][316]LogDerivedDataCache: Shutdown
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module XGEController (166)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module TargetPlatform (164)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (163)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (161)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (159)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (157)
+[2020.02.23-19.54.20:233][316]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (155)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (153)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (151)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (149)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (147)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (145)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module ImageWrapper (144)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (141)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (139)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (137)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (135)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (133)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (127)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (125)
+[2020.02.23-19.54.20:234][316]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (123)
+[2020.02.23-19.54.20:235][316]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.02.23-19.54.20:235][316]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.02.23-19.54.20:236][316]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (117)
+[2020.02.23-19.54.20:236][316]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (115)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (113)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (111)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (109)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (107)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (105)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (103)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (101)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (99)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (97)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module InputCore (94)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module Settings (92)
+[2020.02.23-19.54.20:241][316]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module PhysXCooking (88)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (86)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (85)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2020.02.23-19.54.20:243][316]LogHMD: Freeing OpenVRDLLHandle.
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2020.02.23-19.54.20:243][316]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2020.02.23-19.54.20:244][316]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2020.02.23-19.54.20:254][316]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2020.02.23-19.54.20:254][316]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.23-19.54.20:254][316]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5DEA2306-47E8-44AB-3368-C0B32F3C3879%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=b415b0f94c93cfee025810aff3852d80%7C8429230f16474bcfbd16c123cfe27bf4%7Cedf4265b-70bc-4eab-8023-ac863c49eb1c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.02.23-19.54.20:286][316]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2020.02.23-19.54.20:287][316]LogModuleManager: Shutting down and abandoning module WmfMedia (56)
+[2020.02.23-19.54.20:289][316]LogModuleManager: Shutting down and abandoning module Media (55)
+[2020.02.23-19.54.20:289][316]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
+[2020.02.23-19.54.20:289][316]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
+[2020.02.23-19.54.20:289][316]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
+[2020.02.23-19.54.20:289][316]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2020.02.23-19.54.20:297][316]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2020.02.23-19.54.20:297][316]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.02.23-19.54.20:297][316]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.02.23-19.54.20:297][316]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.02.23-19.54.20:297][316]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.02.23-19.54.20:298][316]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.02.23-19.54.20:299][316]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.02.23-19.54.20:299][316]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.02.23-19.54.20:299][316]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.02.23-19.54.20:299][316]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.02.23-19.54.20:299][316]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.02.23-19.54.20:300][316]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.02.23-19.54.20:301][316]LogD3D11RHI: Shutdown
+[2020.02.23-19.54.20:301][316]LogD3D11RHI: CleanupD3DDevice
+[2020.02.23-19.54.20:301][316]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.23-19.54.20:301][316]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.23-19.54.20:301][316]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.23-19.54.20:417][316]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.02.23-19.54.20:429][316]LogExit: Exiting.
+[2020.02.23-19.54.20:451][316]Log file closed, 02/23/20 19:54:20
